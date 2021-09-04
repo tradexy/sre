@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cloud Engineer</title>
+  
+  
+  
+  
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#Azure" onclick="w3_close()" class="w3-bar-item w3-button">Azure</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">SRE - John Mosquera</div>
+    <div class="w3-center w3-padding-16">Cloud Engineer</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="Azure">
+    <div class="w3-quarter">
+      <img src="https://source.unsplash.com/320x480/?madrid" alt="Madrid" style="width:100%">
+      
+      <a href="https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-quickstart-center" target="_blank"><h3>Let's get started with Azure Cloud</h3></a>
+      <a href="https://azure.microsoft.com/en-gb/resources/templates/" target="_blank"><p>Azure Quickstart Center has: 1. Set up guides, 2. Start a project and 3. Online learning. Let's look at Azure Quickstart templates. Deploy Azure resources through the Azure Resource Manager with community-contributed templates.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://source.unsplash.com/320x480/?plan" alt="Plans" style="width:100%">
+      <a href="https://docs.microsoft.com/en-us/azure/governance/blueprints/overview" target="_blank"><h3>Take a look at Azure Blueprints</h3></a>
+      <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-subscription?toc=%2Fazure%2Fgovernance%2Fblueprints%2Ftoc.json&bc=%2Fazure%2Fgovernance%2Fblueprints%2Fbreadcrumb%2Ftoc.json&tabs=azure-cli#azure-blueprints" target="_blank"><p>Subscription deployments with ARM templates<br>You can use an Azure Resource Manager template (ARM template) to deploy resources at the level of your Azure subscription.</p></a>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://source.unsplash.com/320x480/?server" alt="Server" style="width:100%">
+      <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-template" target="_blank"><h3>Install a Web Server (using ARM)</h3></a>
+      <a href="https://docs.microsoft.com/en-us/troubleshoot/iis/configure-default-document-iis" target="_blank"><p>Configure IIS. The default document is the file that is sent by the Web server when it receives a request for a Uniform Resource Locator (URL) that does not specify a file name (for example, http://MyWebSite).</p></a>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://source.unsplash.com/320x480/?waiting" alt="Waiting" style="width:100%">
+      <a href="https://docs.microsoft.com/en-us/azure/application-gateway/quick-create-template" target="_blank"><h3>Deploy Azure Application Gateway (using ARM)</h3></a>
+      <a href="https://docs.microsoft.com/en-us/azure/application-gateway/tutorial-ingress-controller-add-on-new" target="_blank"><p>Create an AKS cluster with the AGIC add-on enabled. Creating the cluster will automatically create an Azure Application Gateway instance to use.<br>You'll then deploy a sample application through Application Gateway.</p></a>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="https://source.unsplash.com/320x480/?time" alt="Time" style="width:100%">
+      <a href="https://docs.microsoft.com/en-us/azure/application-gateway/configuration-overview" target="_blank"><h3>Application Gateway configuration</h3></a>
+      <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-subscription?toc=%2Fazure%2Fgovernance%2Fblueprints%2Ftoc.json&bc=%2Fazure%2Fgovernance%2Fblueprints%2Fbreadcrumb%2Ftoc.json&tabs=azure-cli#azure-blueprints" target="_blank"><p>Application Gateway HTTP settings configuration<br>Focus on timeout. The application gateway routes traffic to the back-end servers by using the configuration that you specify here. After you create an HTTP setting, you must associate it with one or more request-routing rules.</p></a>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://source.unsplash.com/320x480/?containers" alt="Containers" style="width:100%">
+      <a href="https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-rm-template" target="_blank"><h3>Deploy Azure Kubernetes Service (using ARM)</h3></a>
+      <a href="https://docs.microsoft.com/en-us/azure/aks/kubernetes-dashboard" target="_blank"><p>Access the Kubernetes Web Dashboard using AKS.<br>Kubernetes includes a web dashboard that can be used for basic management operations. This dashboard lets you view basic health status and metrics for your applications, create and deploy services, and edit existing applications.</p></a>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://source.unsplash.com/320x480/?cog" alt="Cog" style="width:100%">
+      <a href="https://azuredevopslabs.com/labs/vstsextend/kubernetes/" target="_blank"><h3>Deploy multi-container app to AKS (DevOps)</h3></a>
+      <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-to-subscription?toc=%2Fazure%2Fgovernance%2Fblueprints%2Ftoc.json&bc=%2Fazure%2Fgovernance%2Fblueprints%2Fbreadcrumb%2Ftoc.json&tabs=azure-cli#azure-blueprints" target="_blank"><p>Deploy a Docker container app to AKS.<br>How to set up continuous deployment of your containerized application to an AKS using Azure Pipelines.<br>After you commit and push a code change, it will be automatically built and deployed to the target Kubernetes cluster.</p></a>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://source.unsplash.com/320x480/?fast" alt="Fast" style="width:100%">
+      <a href="https://azure.github.io/application-gateway-kubernetes-ingress/tutorials/tutorial.general/" target="_blank"><h3>Usage of Kubernetes Ingress Resources</h3></a>
+      <a href="https://azure.github.io/application-gateway-kubernetes-ingress/how-tos/continuous-deployment/" target="_blank"><p>... to expose an example Kubernetes service through the Azure Application Gateway over HTTP or HTTPS. Continuous Deployment with AKS and AGIC using Azure Pipelines. <br>To achieve an efficiently deployed and managed global infrastucture, it is important to setup workflows for CI/CD.</p></a>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Me, Cloud Engineer with AWS and Azure work experience</h3><br>
+    <img src="https://source.unsplash.com/1920x1080/?cloud" alt="Cloud" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <a href="https://hired.com/join?set_locale=en-GB&utm_source=google&utm_medium=cpc&utm_campaign=(cu-b2c)(ch-google-search-phrase)(m-London)(c-Titles-All)(pr-SoftwareEngineering)(sr-All)&utm_term=site%20reliability%20engineer-adgroup-site%20reliability&utm_content=c-adid-range-salary&gclid=Cj0KCQjwssyJBhDXARIsAK98ITTdhOpR5N6Fg1-ZwSSjtDLhr2t5PM9-XgQvKIttIYa71Qa-yqoXsGYaAqiNEALw_wcB" target="_blank"><h4><b>Perfect for Cloud Engineering</b></h4>
+      <h6><i>With Passion For Cloud Development</i></h6>
+      <p>The key task for SREs is automating. SREs reduce toil, meaning manual work that doesn't add anything to the business and just causes problems. 
+        <br>SREs are absolute automation machines. You can see how creativity, collaboration, communication, and various technical skills fit in.
+        <br>Let's face it, your job in operations doesn't lend itself to creativity. Operations is very reactive. You do the same work every day—chasing after and fixing problems. 
+        <br>The SRE role, on the other hand, allows you to affect both the future of your organization and the customer experience. From a career perspective, the job of an SRE is much more rewarding than most IT Ops positions, because you can use your abilities to create, design, improve, and re-engineer.
+        <br>Essentially, an SRE replaces human labor with automation, generally by creating self-service tools for developers. An SRE team enhances the availability, performance, efficiency, monitoring, emergency response, and planning of production services and software.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>See the live service current status of the 3 main Cloud providers</p>
+      <p>Azure Service Health <a href="https://status.azure.com/en-gb/status" target="_blank">Azure Service health</a></p>
+      <p>Azure DevOps Status <a href="https://status.dev.azure.com/" target="_blank">Azure DevOps Status</a></p>
+      <p>Azure Service History <a href="https://status.azure.com/en-gb/status/history/" target="_blank">Azure Service History</a></p>
+      <p>AWS Service Health <a href="https://status.aws.amazon.com/" target="_blank">AWS Service Health</a></p>
+      <p>GCP Status Dashboard <a href="https://status.cloud.google.com/" target="_blank">GCP Status Dashboard</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Moving from on-prem to the cloud</span><br>
+          <span>Choosing your cloud provider/s</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Best cloud management practices</span><br>
+          <span>SRE and DevOps Engineering Priciples</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Azure</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Infrastructure</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">DevOps</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">AWS</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">WebApps</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">AI</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">GCP</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Kubernetes</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">ML</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">IAC</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Terraform</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">ARM Templates</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">IBM</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Alibaba Cloud</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+
+</body>
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
