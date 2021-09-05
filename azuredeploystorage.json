@@ -24,7 +24,7 @@
     }
   },
   "variables": {
-    "storageAccountName": "[concat('storethisgithub', uniquestring(resourceGroup().id))]"
+    "storageAccountName": "[concat('storeingh', uniquestring(resourceGroup().id))]"
   },
   "resources": [
     {
