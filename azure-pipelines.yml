@@ -10,17 +10,16 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'azuredeploystoragePipeline-conn'
+    azureResourceManagerConnection: 'AzureRmPipeline-conn3'
     subscriptionId: '57c4a112-7705-48db-a299-2cd75a01eb7f'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'ExampleGroup'
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/tradexy/sre/main/azuredeploystorage.json'
-    overrideParameters: '-projectName mygithubdevopspipeline'
+    overrideParameters: '-projectName myarmpipeline3'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
